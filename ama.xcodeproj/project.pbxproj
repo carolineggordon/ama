@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D44C1A7194B016C00B12871 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D44C1A6194B016C00B12871 /* main.cpp */; };
 		1D44C1A9194B016C00B12871 /* ama.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D44C1A8194B016C00B12871 /* ama.1 */; };
+		1D5909841970E0620092283F /* temp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D5909821970E0620092283F /* temp.cpp */; };
+		1D5909871970EF0F0092283F /* reverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D5909851970EF0F0092283F /* reverse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		1D44C1A3194B016C00B12871 /* ama */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ama; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D44C1A6194B016C00B12871 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1D44C1A8194B016C00B12871 /* ama.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ama.1; sourceTree = "<group>"; };
+		1D5909821970E0620092283F /* temp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
+		1D5909831970E0620092283F /* temp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = temp.h; sourceTree = "<group>"; };
+		1D5909851970EF0F0092283F /* reverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reverse.cpp; path = ../reverse.cpp; sourceTree = "<group>"; };
+		1D5909861970EF0F0092283F /* reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reverse.h; path = ../reverse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,11 @@
 		1D44C1A5194B016C00B12871 /* ama */ = {
 			isa = PBXGroup;
 			children = (
+				1D5909851970EF0F0092283F /* reverse.cpp */,
 				1D44C1A6194B016C00B12871 /* main.cpp */,
+				1D5909861970EF0F0092283F /* reverse.h */,
+				1D5909821970E0620092283F /* temp.cpp */,
+				1D5909831970E0620092283F /* temp.h */,
 				1D44C1A8194B016C00B12871 /* ama.1 */,
 			);
 			path = ama;
@@ -118,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D44C1A7194B016C00B12871 /* main.cpp in Sources */,
+				1D5909871970EF0F0092283F /* reverse.cpp in Sources */,
+				1D5909841970E0620092283F /* temp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +239,7 @@
 				1D44C1AE194B016C00B12871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

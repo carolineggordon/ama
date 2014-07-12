@@ -7,12 +7,19 @@
 //
 
 #include <iostream>
+#include "temp.h"
+#include "reverse.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    string hello = "Hello, World\n";
+    cout << hello;
+    get_numbers();
+    reverse(&hello);
+    cout << hello;
+    
     return 0;
 }
 
